@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Tajawal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Tajawal&display=swap');
+:root{
+  --color:rgb(81,33,102);
+  --color1:#2596be;
+  --color1-2:#126b8b;
+  --color-2:#ef4444;
+  --color3:#f97316;
+  --color4:#22c55e;
+  --color5:#06b6d4;
+  --color6:#8b5cf6;
+  --fontEN: 'Inter', sans-serif;
+  --fontAr: 'Tajawal', sans-serif;
+  
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+html, body{
+font-family: var(--fontAr);
+}
+nav {
+    font-family: var(--fontEN);
+    background: var(--color);
+    color: white;
+}
+.containeraa{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px;
+}
+.ele-con1{
+    padding: 5px;
+    border: 2px solid var(--color1);
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.ele-con2{
+    line-height: 0.7;
+}
+.ele-con2 h3,.ele-con2 h4{
+    line-height: 0.7;
+}
+h4 {
+    font-family: 'Dancing Script', cursive;
+    color: var(--color1);
+    font-weight: 800;
+}
+.covereele{
+    margin-top: 20px;
+    text-align: center;
+    line-height: 3;
+    
+    border-radius: 5px;
+    box-shadow: 0 5px 10px 6px rgba(0, 0, 0, 0.12);
+}
+.cover-button{
+    background-color:var(--color1);
+
+}
+.cover-button:hover{
+    background-color:var(--color1-2);
+    border: 0px;
+}
+.alert{
+    background-color: var(--color-2);
+    border-color: #fd0000;
+    color:white;
+
+}
+.formats{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+}
+.format{
+    padding: 10px;
+}
+.format button{
+    background: var(--color-2);
+    border-color :transparent;
+    padding: 10px;
+    border-radius: 6px;
+}
+.color4{
+    background-color: var(--color4);
+}
+.color5{
+    background-color: var(--color5);
+}
+
+.inb2{
+padding: 0 5px;
+}
+.inbutton{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+

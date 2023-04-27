@@ -1,0 +1,22 @@
+<div class="cover" dir="rtl" lang="ar">
+  <div class="container py-5 covereele" class="coverele">
+    <h2 class="title fw-bold">تحميل الفيديوهات من الفيسبوك</h2>
+    <div class="cover-description">
+      هده أدارة تساعد على تحميل الفيديوهات على اليوتيب بمختلف الجودات
+    </div>
+    <form action="/download" method="post">
+      <input
+        type="text"
+        name="video_url"
+        class="form-control"
+        placeholder="ضع الرابط هنا"
+      />
+      <div class="mt-3">
+        <button type="submit" class="cover-button btn">تحميل</button>
+      </div>
+      {%if error == 1%}
+      {% include 'components/error.html' %}
+      {% endif %}
+    </form>
+  </div>
+</div>
