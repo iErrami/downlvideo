@@ -12,6 +12,7 @@
   --color6:#8b5cf6;
   --fontEN: 'Inter', sans-serif;
   --fontAr: 'Tajawal', sans-serif;
+  --bg-about:linear-gradient(101.63deg, #04a29f -21.52%, #2036a1 55.18%, #382aa4 93.18%);
   
 }
 *{
@@ -102,5 +103,126 @@ padding: 0 5px;
 }
 
 
+.about{
+    background: var(--bg-about);
+    padding: 20px;
+    color: white;
+    font-size: 22px;
+    margin: 10%;
+    border-radius: 15px;
+    box-shadow: 1px 1px 6px 2px var(--bs-gray-400);
+}
+.avantages{
+    display: flex;
+    flex-wrap:nowrap ;
+    margin: 10%;
+}
+@media only screen and (max-width: 900px) {
+    .avantages {
+        flex-wrap: wrap;
+    }
+  }
+
+.avantage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 1px 1px 1px solid;
+    box-shadow: 0px 0px 4px 0px #8b5cf68c;
+    margin: 5px;
+    border-radius: 15px;
+
+}
+
+.icon-avantage{
+
+}
+.ele-avatage{
+
+}
+.material-symbols-outlined{
+    font-size: 60px;
+    padding-left: 15px;
+}
+
+
+.how {
+    background: linear-gradient(101.63deg, #079794 -21.52%, #6c1b6b 55.18%, #4b0f4a 93.18%);
+    margin: 1.5%;
+    border-radius: 10px;
+    color: white;
+    padding: 30px;
+    text-align: center!important;
+}
+.elehow{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+.NNhow{
+
+}
+
+.accordion{
+    color:white !important;
+    margin: 2%;
+    --bs-accordion-active-bg: var(--color);
+    --bs-accordion-btn-color: black;
+    --bs-accordion-active-color:white;
+    --bs-accordion-btn-focus-box-shadow:;
+   }
+
+
+
+
+
+footer{
+    background: #0f172a;
+    color:#94a3b8;
+    padding: 20px 0 ;
+}
+
+
+.dow-vi{
+    position: fixed;
+    top: 0;
+    height: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+ .towdiv{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    background: linear-gradient(101.63deg, #04a29f3d -21.52%, #2036a100 55.18%, rgb(81 33 102 / 24%) 93.18%);
+
+
+ }
+ .onediv{
+    height: 80%;
+    width: 80%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px 2px var(--bs-gray-200);
+
+
+
+ }
+
+.dow-vi iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.b-iframe{
+    
+}
 
 

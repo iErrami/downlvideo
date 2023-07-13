@@ -14,14 +14,13 @@ def home():
 
 @app.route("/download", methods=["POST"])
 def download():
-    #try:
+   # try:
         video_url = request.form["video_url"]
 
         video_data = extract_video_data_from_url(video_url)
         title = video_data["title"]
         thumbnail = video_data["thumbnail"]
         formats = video_data["formats"]
-                
         return render_template("download.html",
                                     title=title,
                                     thumbnail=thumbnail,
@@ -31,9 +30,10 @@ def download():
                                     error = 0,
                                     faqs=FAQS, 
                                     
+                                    
                                     )
-    #except:
-       # return render_template("index.html", features=FEATURES, faqs=FAQS, error = 1)
+   # except:
+           # return render_template("index.html", features=FEATURES, faqs=FAQS, error = 1)
 
 
 if __name__ == "__main__":
